@@ -1,0 +1,10 @@
+{
+  "name": "main-module",
+  "type": "module",
+  "dependencies": {
+    "@my-scoped/my-module": "latest"
+  },
+  "devDependencies": {
+    "@my-scoped/types": "latest"
+  }
+}
