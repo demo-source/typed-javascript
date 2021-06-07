@@ -1,6 +1,9 @@
 {
   "compilerOptions": {
     "noEmit": true,
-    "checkJs": true
+    "checkJs": true,
+    "lib": [
+      "ESNext"
+    ]
   }
 }
