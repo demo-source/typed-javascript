@@ -5,6 +5,12 @@ declare module '__types' {
     (f: number): string
   }
 
+  export interface MyFnOv {
+    (a: string, b: number): string
+    (a: string | number): string
+    (): number
+  }
+
 }
 
 

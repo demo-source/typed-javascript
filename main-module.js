@@ -13,5 +13,15 @@ function MyFn2(f) {
   return 'foo'
 }
 
+/**
+ * @type {import('__types').MyFnOv}
+ * @param {string} a
+ * @param {number} b
+ */
+function MyFnOv(a, b) {
+  MyFn(a, b)
 
-export { MyFn }
+  return 1
+}
+
+export { MyFn, MyFnOv }
